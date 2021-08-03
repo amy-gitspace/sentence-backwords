@@ -1,0 +1,14 @@
+def rev_functlion(str1):
+    str2=str1.split()
+    str3=str2[::-1]
+    print(str3)
+rev_functlion('this is an apple')
+rev_functlion('great')
+rev_functlion('')
+
+# index=len(str2)
+# while index>0:
+#     str3=str2[index-1]
+    
+#     index=index-1
+#     print(str3)
